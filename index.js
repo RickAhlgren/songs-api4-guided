@@ -10,7 +10,8 @@ server.get("/", (request, response) => {
     response.status(200).json(songs)
 })
 
-const port = 5000;
+// Make the port dynamic so it can run on Heroku AND my local machine
+const port = process.env.PORT || 5000;
 
 server.listen(port, () => {
     console.log(`\n*** Running on port ${port} ***\n`)
