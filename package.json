@@ -1,0 +1,28 @@
+{
+  "name": "songs-api4-guided",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thericktastic/songs-api4-guided.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thericktastic/songs-api4-guided/issues"
+  },
+  "homepage": "https://github.com/thericktastic/songs-api4-guided#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "npm": "^6.13.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
