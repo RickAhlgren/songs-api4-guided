@@ -20,7 +20,7 @@
   "homepage": "https://github.com/thericktastic/songs-api4-guided#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "npm": "^6.13.7"
+    "npm": "^6.14.6"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
